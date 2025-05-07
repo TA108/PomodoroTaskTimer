@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Task Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Pomodoro Task Timer</h1>
+    
+    <section id="Timer">
+        <h2>Timer</h2>
+        <p id="time-left">25:00</p>
+        <div class="button">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+        </div>
+        <p id="status-message">Focus on your task!</p>
+    </section>
+
+    <section id="Instructions">
+        <article id="Pomodoro">
+            <h2>Instructions</h2>
+            <h3>What is the Pomodoro Technique?</h3>
+            <div>
+                <p>
+                    The Pomodoro Technique is a time management method designed to improve focus and productivity. It works by breaking work into short intervals called Pomodoros, typically 25 minutes long, followed by short breaks.
+                    <br>After completing four Pomodoros, you take a longer break. This technique helps you maintain focus, avoid burnout, and increase overall productivity.
+                </p>
+            </div>
+        </article>
+
+        <article id="HowtoUse">
+            <div>
+                <h2>How to Use the Pomodoro Timer</h2>
+            </div>
+            <div>
+                <ol>
+                    <li id="ol">
+                        <strong>Start Your Timer:</strong>
+                        <ul>
+                            <li>Click the <strong>Start</strong> button to begin a 25-minute Pomodoro session.</li>
+                            <li>Focus solely on your task during this time.</li>
+                        </ul>
+                    </li>
+                    <li id="ol">
+                        <strong>Short Break After 25 Minutes:</strong>
+                        <ul>
+                            <li>When the timer reaches <strong>0:00</strong>, the Pomodoro session ends.</li>
+                            <li>A short 5-minute break will begin automatically.</li>
+                            <li>Use this time to rest, stretch, or grab a drink.</li>
+                        </ul>
+                    </li>
+                    <li id="ol">
+                        <strong>Repeat Pomodoro and Break Cycle:</strong>
+                        <ul>
+                            <li>After your short break, click <strong>Start</strong> again to begin a new Pomodoro session.</li>
+                            <li>Continue this cycle: 25 minutes work, 5 minutes break.</li>
+                        </ul>
+                    </li>
+                    <li id="ol">
+                        <strong>Longer Break After 4 Pomodoros:</strong>
+                        <ul>
+                            <li>After four Pomodoros, take a longer break of 15–30 minutes to recharge.</li>
+                        </ul>
+                    </li>
+                    <li id="ol">
+                        <strong>Stop the Timer:</strong>
+                        <ul>
+                            <li>If needed, click the <strong>Stop</strong> button to halt the timer.</li>
+                            <li>You can resume later by clicking <strong>Start</strong> again.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </article>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+</html>
